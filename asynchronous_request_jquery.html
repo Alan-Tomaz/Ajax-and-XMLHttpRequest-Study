@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Easy Ajax With jQuery</title>
+
+    <!-- bootstrap - link cdn -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- jQuery Link CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+    <script type="text/javaScript" src="asynchronous_request_jquery.js"></script>
+</head>
+
+<body>
+
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <h3>Synchronous And Asynchronous Requests</h3>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-4 center"></div>
+            <div class="col-md-4 center">
+                <a href="#" class="btn btn-primary btn-loading-content" id="page_1">Page 1</a>
+                <a href="#" class="btn btn-primary btn-loading-content" id="page_2">Page 2</a>
+                <a href="#" class="btn btn-primary btn-loading-content" id="page_3">Page 3</a>
+            </div>
+            <div class="col-md-4 center"></div>
+        </div>
+
+        <br />
+        <div class="row">
+            <div class="col-md-1"></div>
+
+            <div class="col-md-10" id="div-content" class="text-center">
+                <center><img src="loader.gif" class="image-responsive mx-auto d-block" id="loading"
+                        style="display: none;"></center>
+            </div>
+
+            <div class="col-md-1"></div>
+        </div>
+
+    </div>
+</body>
+
+</html>
